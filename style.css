@@ -1,0 +1,126 @@
+/*
+Theme Name: Routings
+Author: deosebIT soft
+Version: 1.0
+*/
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2F4F5 !important;
+}
+
+footer {
+    height: 150px;
+}
+
+h2 a {
+    color: #212121;
+    padding: 5px;
+}
+
+h2 a:hover {
+    text-decoration: none;
+    color: #F2F4F5;
+    background: #212121;
+}
+
+#mapid {
+    height: 80vh
+}
+
+#map,
+#home_map {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.formBlock {
+    max-width: 300px;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 10px;
+    z-index: 999;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#form {
+    padding: 0;
+    margin: 0;
+}
+
+input:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.leaflet-top .leaflet-control-zoom {
+    /* 	margin-top: 180px !important; */
+}
+
+.bo_start_point ul,
+.bo_end_point ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.bo_start_point ul li.data-location,
+.bo_end_point ul li.data-location {
+    margin: 5px;
+    padding-left: 10px !important;
+    cursor: pointer;
+}
+
+.bo_start_point ul li.data-location:hover,
+.bo_end_point ul li.data-location:hover {
+    background-color: blue;
+    color: white;
+}
+
+.form-group label {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.bo_start_point {
+    margin-bottom: -15px;
+}
+
+.item-list {
+    display: none;
+}
+
+.list_row .col-10 .row.my-4 {
+    background-color: #fff;
+}
+
+.category_image {
+    padding: 20px;
+}
+
+.mq-logo-control img {
+    display: none;
+}
+
+#category_order {
+    width: 100%;
+    border: 0px;
+    padding: 5px;
+}
